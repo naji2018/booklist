@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+#one-page {
+  height: 100%;
+  background-image: url("https://mcdn.wallpapersafari.com/medium/75/28/XtBQ9L.jpg");
+  background-size: auto;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: cover;
+}
+.container {
+  position: relative;
+  top: 15%;
+}
+h1 {
+  font-size: 50px;
+}
+
+@media (max-width: 976px) {
+  #one-page {
+    height: 150%;
+    background-image: url("https://mcdn.wallpapersafari.com/medium/75/28/XtBQ9L.jpg");
+    background-size: auto;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+  }
+}
